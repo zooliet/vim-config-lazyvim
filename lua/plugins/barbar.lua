@@ -2,7 +2,7 @@ return {
   "romgrk/barbar.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   keys = {
-    -- { "<S-TAB>", "<cmd>BufferPrevious<cr>", desc = "Go to previous buffer" },
+    { "<S-TAB>", "<cmd>BufferPrevious<cr>", desc = "Go to previous buffer" },
     { "<TAB>", "<cmd>BufferNext<cr>", desc = "Go to next buffer" },
     { "<C-x>", "<cmd>BufferClose<cr>", desc = "close the buffer" },
   },
